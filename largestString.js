@@ -11,7 +11,7 @@ function largestString(arr) {
 arr = ['we', 'love', 'code', 'academy'];
 console.log(largestString(arr));
 
-const largestStringA = () => {
+const largestStringA = (arr) => {
   let len = Number.MIN_SAFE_INTEGER;
   ans = '';
   arr.forEach((i) => {
